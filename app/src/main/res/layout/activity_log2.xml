@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image1"
+    tools:context=".logActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="-3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="40dp"
+            android:padding="20dp">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:id="@+id/login_email"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="250dp"
+                android:padding="8dp"
+                android:hint="Email"
+                android:layout_marginLeft="40dp"/>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:id="@+id/login_password"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:padding="8dp"
+                android:hint="Password"
+                android:layout_marginLeft="40dp"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Login"
+                android:textColor="@color/black"
+                android:id="@+id/login_button"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="90dp"
+                app:cornerRadius="30dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
